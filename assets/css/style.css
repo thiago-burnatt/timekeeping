@@ -28,6 +28,7 @@ li {
 
 .clock h1 {
     font-size: 5rem;
+
 }
 
 .main-frame-board {
@@ -68,5 +69,44 @@ li {
     font-size: 1.2rem;
     padding: 0.3rem;
     margin: 1rem;
+}
+
+.date h2, .start h2, .end h2, .total-time h2 {
+    border-bottom: 0.1rem solid rgb(90, 85, 85);
+}
+
+ul {
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 700px) {
+    .clock h1 {
+        font-size: 3rem;
+    }
+
+    .main-frame-board {
+        max-width: 90%;
+        padding: 0.9rem;
+    }
+
+    h1 {
+        margin: 1rem;
+        border-bottom: 0.15rem solid rgba(0, 0, 0, 0);
+
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    .start, .end, .date, .total-time {
+        padding: 0.2rem;
+        margin: 0.2rem;
+    }
+
+    li {
+        font-size: 0.9rem;
+    }
+    
 }
 
